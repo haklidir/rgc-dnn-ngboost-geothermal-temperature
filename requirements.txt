@@ -4,5 +4,6 @@ matplotlib
 seaborn
 scipy
 scikit-learn
-tensorflow
+tensorflow>=2.10
 ngboost
+jupyter
