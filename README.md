@@ -8,7 +8,7 @@ Code and notebooks for the study:
 > ¹ Istanbul Bilgi University, Department of Energy Systems Engineering, Eyüp İstanbul, Türkiye
 > ² TÜBİTAK BİLGEM, Gebze Kocaeli, Türkiye
 >
-> *Geothermics*, 2026.
+> *Geothermics*, 141, 103760 (2026). https://doi.org/10.1016/j.geothermics.2026.103760
 
 The repository implements:
 
@@ -113,11 +113,12 @@ If you use this code, please cite:
              Anatolia (Türkiye) Using Synthetic Hydrogeochemical Data from
              Rank--Gaussian Copulas},
   journal = {Geothermics},
-  year    = {2026}
+  volume  = {141},
+  pages   = {103760},
+  year    = {2026},
+  doi     = {10.1016/j.geothermics.2026.103760}
 }
 ```
-
-(Volume, pages and DOI will be added once the article appears in the journal issue.)
 
 ## License
 
