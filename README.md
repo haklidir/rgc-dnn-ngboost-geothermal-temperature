@@ -36,7 +36,8 @@ The three notebooks reproduce the marginal and multivariate diagnostics in Table
 ├── notebooks/
 │   ├── 01_RGC_synthetic_data_generation.ipynb
 │   ├── 02_DNN_RGC_pretraining_and_finetuning.ipynb
-│   └── 03_NGBoost_real_vs_RGC_augmented.ipynb
+│   ├── 03_NGBoost_real_vs_RGC_augmented.ipynb
+│   └── 04_full_pipeline_rerun.ipynb
 │
 ├── src/
 │   └── __init__.py                   # placeholder for future shared utilities
@@ -82,7 +83,10 @@ The notebooks are intended to be executed in order:
 3. `03_NGBoost_real_vs_RGC_augmented.ipynb`
    Fits two NGBoost regressors (real-only and RGC-augmented) and writes the comparison to `ngb_outputs/`.
 
-Each notebook is a single code cell. To launch:
+4. `04_full_pipeline_rerun.ipynb`
+   Reruns the DNN ensemble and NGBoost stages end to end on uploaded data files, checks the test metrics against the manuscript, saves the predictions and adds the error-by-temperature-range analysis prepared during revision.
+
+Notebooks 1 to 3 are a single code cell each. To launch:
 
 ```bash
 jupyter notebook notebooks/
